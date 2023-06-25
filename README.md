@@ -1,1 +1,2 @@
 # spring-boot-parallel-service
+This repository contains a Spring Boot application with a single controller and method. The method calls two services in parallel. The first service allows setting the value of a String at runtime and returns it as a response. The second service returns the name of the current day as a String response. The controller method combines the responses from both services and returns them to the caller.
